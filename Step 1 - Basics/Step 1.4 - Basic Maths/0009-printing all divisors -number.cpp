@@ -13,7 +13,8 @@ public:
             }
         }
         
-        sort(v.begin(), v.end());
+        sort(v.begin(), v.end()); //sort has time complexity (no of facdtors)*log(no of factors)
         return v;
     }
 }; // converting big o (n) to big o (root n)
+// so over all time complexity is o(rootn)+o(n*log(n))
