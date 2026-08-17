@@ -8,4 +8,4 @@ class Solution{
                 
               return  N + NnumbersSum(N-1);}
 		}
-};
+};// by functional method 
